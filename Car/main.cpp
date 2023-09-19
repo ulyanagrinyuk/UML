@@ -188,7 +188,7 @@ public:
 		do
 		{
 			key = 0;
-			if (_kbhit())	//Ôóíêöèÿ _kbhit() 
+			if (_kbhit())
 				key = _getch();
 			switch (key)
 			{
@@ -208,7 +208,7 @@ public:
 				tank.fill(fuel);
 				break;
 			}
-			case 'I':case 'i':	//Ignition - çàæèãàíèå
+			case 'I':case 'i':
 				if (engine.started())stop();
 				else start();
 				break;
