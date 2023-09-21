@@ -2,7 +2,10 @@
 #include<iostream>
 #include<conio.h>
 #include<thread>
-using namespace std;
+using std::cout;
+using std::cin;
+using std::endl;
+
 using namespace std::chrono_literals;
 
 #define Enter	13
